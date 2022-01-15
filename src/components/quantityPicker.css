@@ -1,0 +1,15 @@
+.quantityPicker{
+    display: block;
+}
+
+.quantityPicker button {
+    display: inline-block;
+    margin: 5px;
+    background-color: coral;
+}
+
+.quantityPicker label{
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 5px;
+}

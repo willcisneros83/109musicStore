@@ -1,0 +1,25 @@
+
+
+.home-page {
+    background-image: url("https://bizbolts.co.za/wp-content/uploads/2021/01/Entrepreneurship-Opportunities-At-A-Music-Concert.jpg");
+}
+
+.home-page {
+    min-height: 600px;
+    background-color: coral;
+    padding-top: 120px;
+
+}
+
+.home-page h1 {
+    text-align: center;
+    margin-bottom: 0;
+    color: cornsilk;
+}
+
+.home-page h3 {
+    text-align: center;
+    margin-bottom: 0;
+    color: cornsilk;
+}
+
