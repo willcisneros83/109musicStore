@@ -34,7 +34,7 @@ const Product = (props)=> {
             <h2>{props.info.title}</h2>
 
             <div>
-                <label className="total">$Total</label>
+                <label className="total">${getTotal()}</label>
                 <label className="price">${props.info.price.toFixed(2)}</label>      
             </div>
 
