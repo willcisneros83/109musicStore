@@ -7,10 +7,10 @@ const Catalog = () => {
   //state vars are In Mutables
   let [products, setProducts] = useState([]);
 
-  const loadCatalog = () => {
+  const loadCatalog = async () => {
     console.log("Catalog cmp loaded");
     let service = new DataService();
-    let data = service.getCatalog();
+    let data = await service.getCatalog();
     setProducts(data);
     console.log("Retrieved", data);
   };

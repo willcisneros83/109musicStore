@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 
 var catalog = [
     {
@@ -46,12 +48,13 @@ var catalog = [
 
 class DataService {
 
-    getCatalog() {
+    async getCatalog() {
         // do the magic to connect to the server
-        //and retrieve the catalog
+        let response = await axios.get("http://127.0.0.1:5000/api/catalog");
+        return response.data;
 
-        //return moch data
-        return catalog;
+        //return moch datagit 
+        //return catalog;
     }
 }
 
